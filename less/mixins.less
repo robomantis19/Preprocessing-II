@@ -1,1 +1,17 @@
 // Mixins in here
+
+.myButton(@height, @width){
+    background-color: teal;
+    height: @height; 
+    width: @width;
+    border-radius: 1.4rem;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    @media @mobile{
+        padding-bottom: 5%;
+    }
+}
